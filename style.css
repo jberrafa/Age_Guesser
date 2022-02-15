@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+
+* {
+    background: rgb(39, 39, 39);
+    font-family: 'Chango', cursive;
+}
+body {
+    text-align: center;
+    font-family: 'Chango', cursive;
+    color: #7dffba;
+    height: 100vh;
+    /* Centers the body vertically and horizontally */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {    
+    height: 75vh;
+    width: 75vh;
+    
+}
+
+h1 {
+    font-size: 5em;
+}
+
+label {
+    font-size: 2em;
+}
+
+input {
+    padding: 10px;
+    margin: 20px;
+    border: 0;
+    border-bottom:1px solid #7dffba;  /* add only bottom border */
+    box-shadow:0 0 5px 4px #7dffba;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    background: rgb(75, 75, 75);
+    color: #7dffba;
+}
+
+select {
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    border-bottom:1px solid #7dffba;
+    box-shadow:0 0 5px 4px #7dffba;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 50px;
+    background: rgb(75, 75, 75);
+    color: #7dffba;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #aa0404;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+button:hover {
+    background-color: #3e8e41
+}
+  
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #7dffba;
+    transform: translateY(4px);
+  }

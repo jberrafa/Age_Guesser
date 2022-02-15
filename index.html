@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <script type="text/javascript" src="./script.js" defer></script>
+        <title>Age Guesser</title>
+    </head>
+    <body>
+        <div class="container"> 
+            <h1>Age Guesser</h1>
+        
+            <!-- Name Label -->
+            <label id="enter-name" for="name">Enter your name</label>
+
+            <!-- Name Text field -->
+            <div id="username-div">
+                <input type="text" id="username" placeholder="Your name">
+            </div>
+            
+            <!-- Country Label -->
+            <div id="country-label">
+                <label for="countries">Choose your country:</label>
+            </div>
+
+            <!-- Country Dropdown -->
+            <div class="dropdown">
+                <select id="country" name="country" placeholder="Country">
+                    <option value="" disabled selected>Select your country</option>
+                    <option value="FR">France</option>
+                    <option value="IT">Italy</option>
+                    <option value="ES">Spain</option>
+                    <option value="TR">Turkey</option>
+                    <option value="CA">Canada</option>
+                    <option value="US">United States</option>
+                </select>
+            </div>
+           
+            <!-- Get Age Button -->
+            <button id="guess" onclick="getage()">Guess My Age</button>
+            <h1 id="result"></h1>
+        </div>
+    </body>
+</html>
